@@ -9,8 +9,10 @@ line tool. This project can be edited using any text editor you wish.
   * Serial data on PIN 5
 * Plug arduino into computer
 * Find its port
-* `git clone `
-* `cd $/platformio/`
+* Clone repo
+  * using ssh `git clone git@github.com:DanHartman/ws2812b.git`
+  * using https `git clone https://github.com/DanHartman/ws2812b.git`
+* `cd ws2812b/platformio/`
 * `platformio run -e uno --target upload --upload-port "/WHATEVER/PORT/YOU/SEE/IT/CONNECTED/TO"`
 * Power up and enjoy!
 
@@ -26,8 +28,8 @@ README are given using an `uno` board.  However, the user may specify `nano` as
 well.  Extending this to other boards is as simple as adding environments to the
 `platformio/platformio.ini` file.
 
-### Connect your WS2812B led strip to
-This source will use `D5` as the data pin per this diagram
+### Connect your WS2812B led strip
+This project will use `D5` as the data pin per this diagram
 ![](https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2016/09/WS2812B-with-Arduino_bb.png?resize=700%2C423&ssl=1)
 
 ### Burn firmware to arduino
@@ -44,6 +46,3 @@ This source will use `D5` as the data pin per this diagram
 * over time operator may need to update the "platforms" that platformio supports
   * one use case is if an old platformio installation was using python2 code
   * fix with `platformio platform update`
-
-### gobot.io
-* `go get -d -u gobot.io/x/gobot/...`
