@@ -5,7 +5,7 @@ don't need it!  This project will introduce the amazing `platformio` command
 line tool. This project can be edited using any text editor you wish.
 
 ## Tl;dr
-* Connect a strip of 30 WS2812B leds to an arduino
+* Connect a strip of 40 WS2812B leds to an arduino
   * Serial data on PIN 5
 * Plug arduino into computer
 * Find its port
