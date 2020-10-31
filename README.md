@@ -3,6 +3,7 @@ This is a hello world starting point for arduino controlled WS2812B RGB leds.
 Anyone who has already used an arduino has probably used the Arduino IDE. You
 don't need it!  This project will introduce the amazing `platformio` command
 line tool. This project can be edited using any text editor you wish.
+Pull requests are welcome!
 
 ## Tl;dr
 * Connect a strip of 40 WS2812B leds to an arduino
