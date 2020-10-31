@@ -41,8 +41,3 @@ This project will use `D5` as the data pin per this diagram
 * compile: `platformio run -e uno`
 * burn to uno: `platformio run -e uno --target upload --upload-port "/dev/ttyUSB0"`
 
-* See the below link if different firmata versions for different functions are desired
-  * [Firmata Examples](https://platformio.org/lib/show/307/Firmata/examples)
-* over time operator may need to update the "platforms" that platformio supports
-  * one use case is if an old platformio installation was using python2 code
-  * fix with `platformio platform update`
